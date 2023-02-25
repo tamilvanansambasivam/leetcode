@@ -1,4 +1,4 @@
-var isPalindrome = function (x) {
-    let y = parseInt(x.toString().split('').reverse().join(''));
-    return x === y;
+var isPalindrome = function(x) {
+  let y = x.toString().split("").reverse().join("");
+  return x === parseInt(y)
 };
